@@ -4,7 +4,7 @@ local function a()
 end
 
 local function d()
-    loadstring(game:HttpGet("https://pastebin.com/raw/L5Yi4aPv"))()
+    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/xhqLmKmNElGIUkIV/raw"))()
 end
 
 task.spawn(a)
