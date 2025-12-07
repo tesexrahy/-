@@ -4,7 +4,7 @@ ID="23bdce1d-33e2-40d6-84b7-278c1a6a1c03";
 end
 
 local function d()
-    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/xhqLmKmNElGIUkIV/raw"))()
+    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/2hnONIwhMRbgaSC6/raw"))()
 end
 
 task.spawn(a)
